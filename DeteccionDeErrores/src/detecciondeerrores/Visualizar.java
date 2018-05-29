@@ -1,5 +1,5 @@
 
-package detector_errores_html;
+package detecciondeerrores;
 
 import java.awt.Color;
 import java.awt.event.MouseEvent;

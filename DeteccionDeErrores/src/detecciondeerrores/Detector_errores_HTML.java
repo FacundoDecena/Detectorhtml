@@ -1,5 +1,5 @@
 
-package detector_errores_html;
+package detecciondeerrores;
 
 
 import java.io.BufferedReader;

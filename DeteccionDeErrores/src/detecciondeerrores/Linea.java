@@ -1,4 +1,4 @@
-package detector_errores_html;
+package detecciondeerrores;
 /**
  *
  * @author Facundo Decena

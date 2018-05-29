@@ -1,4 +1,4 @@
-package detector_errores_html;
+package detecciondeerrores;
 
 import java.awt.*;
 import java.util.*;
