@@ -9,6 +9,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import javax.swing.JFileChooser;
 
@@ -56,7 +57,13 @@ public class Detector_errores_HTML {
     
     List<Error> comentarios (List<Linea> archivo_html){
         List<Error> errores_encontrados = new ArrayList<Error>();
-        
+        Iterator i = archivo_html.listIterator();
+        while(i.hasNext()){
+            Linea linea = (Linea) i.next();
+            String caracteres = linea.get_linea();
+            if(caracteres.contains("<--"));
+            
+        }
         return errores_encontrados;
     }
     
